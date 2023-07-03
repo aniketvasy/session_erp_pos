@@ -68,6 +68,7 @@
             <input type="submit" value="Login">
         </div>
     </form>
-    <a href="/pos" class="redirect-button">Go to POS</a>
+    <a href="/ems" class="redirect-button">Go to EMS</a>
+    <a href="/add" class="redirect-button">Add Employee</a>
 </body>
 </html>
