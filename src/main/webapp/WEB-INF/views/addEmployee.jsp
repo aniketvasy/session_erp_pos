@@ -36,10 +36,14 @@
             border: none;
             cursor: pointer;
         }
+        .parent-div{
+        	display
+        }
     </style>
 </head>
 <body>
     <h2>Add Employee</h2>
+    <div class="parent-div">
     <form action="/add" method="POST">
         <div>
             <label for="fullName">Full Name:</label>
@@ -65,5 +69,16 @@
             <input type="submit" value="Add Employee">
         </div>
     </form>
+    <br>
+    <br>
+    <br>
+    <a href="/ems" class="redirect-button">Go to EMS</a>
+    <br>
+    <br>
+    <a href="/login" class="redirect-button">Go to Login Page</a>
+    <br>
+    <br>
+    <a href="/logout" class="redirect-button-logout">Logout</a>
+    </div>
 </body>
 </html>
